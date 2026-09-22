@@ -1,0 +1,31 @@
+cff-version: 1.2.0
+message: "If you use this corpus in your research, please cite it as below."
+title: "LowBit Trace Corpus (LTC): A Deterministic Branch-Prediction and Cache-Access Benchmark Suite for RISC-V"
+type: software
+authors:
+  - family-names: Mohanty
+    given-names: "Om Pranab"
+    affiliation: "Sri Sathya Sai Institute of Higher Learning (SSSIHL)"
+version: "1.0.0"
+date-released: "2026-07-16"
+license: LicenseRef-LICENSE.md
+repository: "local"
+keywords:
+  - RISC-V
+  - branch-prediction
+  - cache-performance
+  - microarchitecture
+  - benchmark-suite
+  - machine-learning
+  - performance-modeling
+abstract: >
+  A 500-program deterministic, portable benchmark suite crossing 50
+  branch-prediction patterns with 50 cache-access patterns across
+  four working-set size tiers, designed to produce labeled CPU traces
+  for training and evaluating machine learning models that predict
+  branch-misprediction and cache-hit/miss behavior. Generator-driven
+  (five Python catalogue scripts plus a shared template), backend-
+  agnostic (no benchmark source file contains hardware-counter or
+  simulator-specific code), with an explicit warm-up / region-of-
+  interest / validation lifecycle and a documented, versioned output
+  schema.
